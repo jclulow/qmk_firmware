@@ -1,3 +1,20 @@
+# jclulow Ergodox EZ firmware
+
+This branch contains the keyboard layout I'm using on my Ergodox EZ.
+
+Rough notes on use:
+
+```
+python3 -m ../venv
+. ../venv/bin/activate
+pip install wheel
+pip install -r requirements.txt
+./bin/qmk compile -kb ergodox_ez -km jclulow
+./bin/qmk flash -kb ergodox_ez -km jclulow
+```
+
+Note that in this layout, the reset button is top-right in Layer 2.
+
 # ZSA's fork of QMK Firmware 
 
 [![Current Version](https://img.shields.io/github/tag/ErgoDox-EZ/qmk_firmware.svg)](https://github.com/ErgoDox-EZ/qmk_firmware/tags)
