@@ -5,6 +5,7 @@ This branch contains the keyboard layout I'm using on my Ergodox EZ.
 Rough notes on use:
 
 ```
+sudo apt install avr-libc gcc-avr teensy-loader-cli
 python3 -m ../venv
 . ../venv/bin/activate
 pip install wheel
